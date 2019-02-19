@@ -1,0 +1,50 @@
+body{
+	background-color:#111111;
+}
+
+nav{
+	text-align: center;
+}
+
+main{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor-texto{
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+
+.contenedor-texto p{
+	font-size: 1em;
+	font-weight: bold;
+	color:#fff;
+}
+
+.contenedor-texto button{
+	border: 2px solid #af971a;
+	background-color: #111;
+	color:#fff;
+	padding: 10px;
+	font-size: 1em;
+	border-radius: 15px;
+	text-transform: uppercase;
+}
+
+.contenedor-juego{
+	width: 70%;
+	float: right;
+	text-align: center;
+}
+
+.palabra-estilo{
+	font-size: 2em;
+	font-weight: bold;
+	color:#af971a;
+	text-align: center;
+	margin-top:5px;
+	margin-bottom:5px;
+}
