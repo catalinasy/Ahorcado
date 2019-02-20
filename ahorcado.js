@@ -180,8 +180,9 @@ function mostrarVictoria(palabraRespondida){
 function mostrarDerrota(intento){
 	if(intento==false){
 		intentosRestantes-=1;
+		console.log(intentosRestantes);
 	}
-	else if (intentoRestantes<0){
+	if (intentosRestantes<0){
 		document.getElementById("mostrar-resultado").innerHTML = "Perdiste!!!"
 	}
 	else {
